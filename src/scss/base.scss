@@ -11,32 +11,13 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: $fontKumbh;
-  background: #19A1AE;
+  background-color: #19A1AE;
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-top.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 978px, 978px;
+  background-position: right 50vw top -489px, left 50vw bottom -629px;
   padding: 25px;
 
-  &:before {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 50vw;
-    width: 978px;
-    height: 978px;
-    transform: translateY(-50%);
-    background: url('../images/bg-pattern-top.svg') no-repeat center center / contain;
-  }
-
-  &:after {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 50vw;
-    width: 978px;
-    height: 978px;
-    transform: translateY(calc(50% + 140px));
-    background: url('../images/bg-pattern-top.svg') no-repeat center center / contain;
-  }
 
   .card {
     position: relative;

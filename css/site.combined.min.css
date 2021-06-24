@@ -1,8 +1,8 @@
 /**
  * @project        frontend-mentor-challenge
  * @author         David Maillard, <maillard.david23@gmail.com>
- * @build          Thu, Jun 24, 2021 9:48 AM ET
- * @release        b0d5ce61a7b05ea5f02ab47031aaf3e20f13092a [master]
+ * @build          Thu, Jun 24, 2021 6:34 PM ET
+ * @release        ce993e4e30db49eeb3ab14cd8607d1a08da895f8 [master]
  * @copyright      Copyright (c) 2021, REPLACE_ME
  *
  */
@@ -23,30 +23,12 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: "Kumbh Sans", sans-serif;
-  background: #19A1AE;
+  background-color: #19A1AE;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 978px, 978px;
+  background-position: right 50vw top -489px, left 50vw bottom -629px;
   padding: 25px; }
-  body:before {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: 50vw;
-    width: 978px;
-    height: 978px;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background: url("../images/bg-pattern-top.svg") no-repeat center center/contain; }
-  body:after {
-    content: '';
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 50vw;
-    width: 978px;
-    height: 978px;
-    -ms-transform: translateY(calc(50% + 140px));
-    transform: translateY(calc(50% + 140px));
-    background: url("../images/bg-pattern-top.svg") no-repeat center center/contain; }
   body .card {
     position: relative;
     z-index: 1;
