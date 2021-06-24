@@ -23,7 +23,7 @@ body {
     width: 978px;
     height: 978px;
     transform: translateY(-50%);
-    background: url('./images/bg-pattern-top.svg') no-repeat center center / contain;
+    background: url('../images/bg-pattern-top.svg') no-repeat center center / contain;
   }
 
   &:after {
@@ -35,7 +35,7 @@ body {
     width: 978px;
     height: 978px;
     transform: translateY(calc(50% + 140px));
-    background: url('./images/bg-pattern-top.svg') no-repeat center center / contain;
+    background: url('../images/bg-pattern-top.svg') no-repeat center center / contain;
   }
 
   .card {
@@ -54,7 +54,7 @@ body {
     .card-header {
       position: relative;
       height: 140px;
-      background: url('./images/bg-pattern-card.svg') no-repeat center center / cover;
+      background: url('../images/bg-pattern-card.svg') no-repeat center center / cover;
 
       .card-profile {
         position: absolute;
